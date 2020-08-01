@@ -146,7 +146,14 @@
   background-color: rgba(255, 255, 255, 0);
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
+  transition: .2s;
 }
+
+.button:hover {
+	background: white;
+	color: #EC3642;
+}
+
 
 .button.tile-btn {
   margin-top: 20px;
@@ -440,6 +447,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 50px;
+  width: 350px;
   padding-left: 25px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -449,8 +457,10 @@
 }
 
 .div-block-10 {
-  padding: 20px 20px 10px;
-  background-color: #fff7f8;
+	height: 450px;
+	width: 350px;
+  	padding: 20px 20px 10px;
+  	background-color: #fff7f8;
 }
 
 .heading-5 {
