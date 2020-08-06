@@ -48,10 +48,29 @@
 	margin-left: 15px;
 }
 
+.social-icon {
+	
+	font-size: 25px !important;
+	color: white;
+}
+
+#class-img {
+	
+}
 
 
+.small-columns {
+	display: flex;
+	flex-direction: row;
+	border: 1px white solid;
+	padding-top: 15px;
+	
+}
 
-
+.small-column {
+	padding-left: 15px;
+	padding-right: 15px;
+}
 
 @media screen and (max-width: 991px) {
 	.div-block-9 {

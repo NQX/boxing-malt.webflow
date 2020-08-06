@@ -3,21 +3,27 @@
 }
 
 .section {
+	padding-top: 50px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 70%;
+  flex-direction: column;
+  
+  
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  
+  
   background-color: #ec3642;
+}
+
+.center-heading {
+	text-align: center;
 }
 
 .section-2 {
@@ -107,8 +113,8 @@
 }
 
 .paragraph.left-text {
-  font-size: 22px;
-  line-height: 35px;
+  font-size: 16px;
+  line-height: 25px;
   font-weight: 500;
   text-align: center;
 }
@@ -634,6 +640,7 @@
 }
 
 .div-block-13 {
+	height: 250px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -644,10 +651,11 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  justify-content: center;
+  align-items: center;
   border-right: 1px none #d67f7f;
   background-color: #ec3642;
   font-family: Montserrat, sans-serif;
@@ -655,10 +663,12 @@
 }
 
 .div-block-13.right-block {
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+	height: 250px;
+	justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-left: 1px solid hsla(0, 0%, 100%, 0.38);
 }
 
@@ -778,6 +788,11 @@
   font-family: Montserrat, sans-serif;
   color: #fff;
   font-weight: 700;
+  transition: .2s;
+}
+
+.nav-item:hover {
+	color: #EC3642;
 }
 
 .div-block-18 {
@@ -1042,10 +1057,17 @@
   border-radius: 20px;
   background-color: #242424;
   font-family: Montserrat, sans-serif;
+  transition: .2s;
+}
+
+.button-3:hover {
+	background: gray;
+	color: rgb(41, 41, 41);
+	border-color: rgb(41, 41, 41);
 }
 
 .paragraph-19 {
-  text-align: right;
+  text-align: center;
 }
 
 .paragraph-19.right-text-box {
@@ -1374,7 +1396,21 @@
   border-color: #525252;
   border-radius: 35px;
   background-color: #303030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s;
 }
+
+.div-block-39:hover {
+	background: #525252;
+	color: rgb(41, 41, 41);
+	border-color: rgb(41, 41, 41);
+	text-decoration: none;
+}
+
+
+
 
 @media screen and (max-width: 991px) {
   .section {
@@ -1604,6 +1640,7 @@
     margin-bottom: 5px;
   }
   .div-block-13 {
+	  
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
