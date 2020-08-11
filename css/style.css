@@ -1,3 +1,9 @@
+.column-20 {
+	display: flex;
+	justify-content: center;
+	padding-top: 25px;
+}
+
 .btn-more {
 	width: 100px;
 	height: 100px;
