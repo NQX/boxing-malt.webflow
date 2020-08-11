@@ -606,11 +606,35 @@
 
 .div-block-12.card-img-pt {
 
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/training.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/training-bw.jpg');
   background-position: 0px 0px, 0% 50%;
   background-size:  cover;
   background-repeat: repeat, no-repeat;
 }
+
+.div-block-12.card-class-1 {
+
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/class1.jpg');
+	background-position: 0px 0px, 0% 50%;
+	background-size:  cover;
+	background-repeat: repeat, no-repeat;
+  }
+
+.div-block-12.card-img-pt-2 {
+
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/training-bw.jpg');
+	background-position: right;
+	background-size:  cover;
+	background-repeat: repeat, no-repeat;
+  }
+
+  .div-block-12.card-class-2 {
+
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/class2.jpg');
+	background-position: right;
+	background-size:  cover;
+	background-repeat: repeat, no-repeat;
+  }
 
 .div-block-12.black-card {
   background-color: #1b1b1b;
@@ -2283,6 +2307,7 @@
     font-size: 55px;
   }
   .paragraph-29 {
-    font-size: 34px;
+	font-size: 34px;
+	line-height: 34px;
   }
 }
