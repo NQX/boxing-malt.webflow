@@ -45,7 +45,7 @@
 }
 
 .center {
-	margin-left: 15px;
+	margin: 0 auto;
 }
 
 .social-icon {
@@ -54,9 +54,7 @@
 	color: white;
 }
 
-#class-img {
-	
-}
+
 
 
 .small-columns {
@@ -114,8 +112,12 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		align-items: flex-start;
+		align-items: center;
 		width: 100%;
+	}
+
+	.w-col-4.footer {
+		align-items: flex-start;
 	}
 
 

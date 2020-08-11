@@ -665,7 +665,8 @@
 }
 
 .section-8 {
-  height: 70%;
+  	height: 70%;
+	
 }
 
 .columns-2 {
@@ -738,6 +739,7 @@
 
 .div-block-14.right-img {
   background-image: url('../images/bg-1.png');
+  
 }
 
 .column-5 {
@@ -2002,6 +2004,8 @@
   .paragraph-30 {
     text-align: center;
   }
+
+  
 }
 
 @media screen and (max-width: 479px) {
