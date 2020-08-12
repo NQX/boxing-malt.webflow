@@ -2009,6 +2009,12 @@
 }
 
 @media screen and (max-width: 479px) {
+
+	.div-block-10 {
+		height: auto;
+	}
+
+
   .section {
     display: none;
   }
