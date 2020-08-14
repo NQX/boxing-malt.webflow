@@ -1283,7 +1283,8 @@
   display: -ms-flexbox;
   display: flex;
   width: 80%;
-  height: 500px;
+  height: auto;
+  
 }
 
 .columns-3 {
@@ -1611,7 +1612,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 60px;
+  height: 90px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2174,7 +2175,8 @@
     background-position: 45% 0%;
   }
   .section-12 {
-    height: 1000px;
+	height: auto;
+	padding-bottom: 20px;
   }
   .div-block-31 {
     width: 100%;

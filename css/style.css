@@ -5,10 +5,10 @@
 }
 
 .btn-more {
-	width: 100px;
-	height: 100px;
-	background: #EC3642;
-	border-radius: 55px;
+	width: 120px;
+	height: 40px;
+	background: white;
+	border: 2px solid #EC3642;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -20,7 +20,7 @@
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
-	color: white;
+	color: #EC3642;
 	font-weight: bold;
 }
 
