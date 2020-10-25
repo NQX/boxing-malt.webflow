@@ -22,8 +22,23 @@
   background-color: #ec3642;
 }
 
+.white {
+  color: white;
+}
+
+.red-heading {
+  background-color: #ec3642;
+  height: 50px;
+  padding-left: 25px;
+  padding-top: 12px;
+}
+
 .center-heading {
 	text-align: center;
+}
+
+.center {
+  justify-content: center;
 }
 
 .section-2 {
@@ -1226,7 +1241,8 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 100%;
+  padding-bottom: 15px;
+  height: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1818,7 +1834,7 @@
     text-align: left;
   }
   .section-12 {
-    height: 900px;
+    height: auto;
   }
   .column-8 {
     display: -webkit-box;
