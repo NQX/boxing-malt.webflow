@@ -11,11 +11,11 @@ $(function () {
     var mediumPromise = new Promise(function (resolve) {
         var $content = $('#jsonContent');
         var data = {
-            rss: 'https://medium.com/feed/@nqx'
+            rss: 'https://medium.com/feed/@coqqos'
         };
 
 
-        $.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40nqx',
+        $.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40coqqos',
             data,
             function (response) {
                 if (response.status == 'ok') {
@@ -44,6 +44,9 @@ $(function () {
 
                         yourString = yourString.replace('h4', 'p');
                         yourString = yourString.replace('h3', 'p');
+                            console.dir(item)
+                        display += `<p style="text-decoration: none; font-size: 12px;">${item.pubDate.replaceAll('-','/').slice(0,-3)}</p>`;
+
                         var maxLength =
                         120; // maximum number of characters to extract
                         //trim the string to the maximum length
@@ -83,7 +86,7 @@ $(function () {
                     $(this).show();
             });
         }
-<aaaaaaaaaaaaa
+
         showPage(1);
 
         $("#pagin li").click(function () {
