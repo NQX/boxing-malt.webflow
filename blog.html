@@ -4,7 +4,7 @@
 <html data-wf-page="5f19811dad8bf8fe4844ee08" data-wf-site="5f159fe023d0985241ff7489">
 <head>
   <meta charset="utf-8">
-  <title>Meet Christian</title>
+  <title>Blog</title>
   <meta content="About" property="og:title">
   <meta content="About" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -20,6 +20,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
   <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
 
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -53,7 +56,7 @@
 
 </head>
 <body class="body-2">
-	<div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
+	<div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav" style="position: fixed;">
 		<div class="w-container" style="width: 940px;">
 			<a href="index.html" class="w-nav-brand">
 				<img src="images/coqqos-red.png" width="100" alt="" class="image-2">
@@ -74,24 +77,22 @@
 		</div>
 	</div>
   <div class="section-12">
-    <div class="div-block-29">
+    <div class="div-block-29-b">
       <div class="div-block-30">
-        <h1 class="heading thin">Meet christian</h1>
+        <h1 class="heading thin">Blog</h1>
       </div>
     </div>
     <div class="div-block-31">
-      <div class="columns-3 w-row">
-        <div class="column-8 w-col w-col-6 w-col-stack">
-          <div class="html-embed w-embed w-iframe"><iframe width="100%" height="315" src="https://www.youtube.com/embed/OS4N6mKJrhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-        </div>
-        <div class="column-22 w-col w-col-6 w-col-stack">
-          <h2 class="heading-11">Maltas most experienced Boxer</h2>
-          <p class="paragraph-20">Christian alias “Coqqos“ was introduced to martial arts when he was 4 years old. He practised Shotokan Karate until he started playing football but never lost the fascination for combat sports watching all Boxing and Kickboxing tournaments he could find on TV.</p>
-          <p class="paragraph-20">When he turned 17 he started to train kickboxing and boxing lessons again. When he was 20 he made his first amateur fight and within only 3 years he had over 20 Amatuer and Am/Pro kickboxing fights and 24 Semi Pro Boxing fights, the vast majority of them wins.</p>
-          <p class="paragraph-20">In October 2015 Christian turned professional. In his young career he has already fought 26 times, winning 18 of them and becoming the most experienced professional boxer in the Maltese Islands. He has fought in Italy, Switzerland and England and trained with famous boxers in London, Budapest, Stockholm and York.</p>
-          <p class="paragraph-20">Being 28 years by now, he is still at the beginning of his career.</p>
-        </div>
-      </div>
+	  
+		<div class="container mt-0 pt-5" id="medium" >
+						<div class="row" id="jsonContent"></div>
+						<div class="row center">
+							<a class="btn btn-outline-danger btn-lg" href="https://medium.com/@coqqos" target="_blank"
+							role="button">View all posts</a>
+						</div>
+			</div>
+		</div>
+
     </div>
   </div>
   
@@ -150,6 +151,8 @@
 
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5f159fe023d0985241ff7489" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
+
+  <script src="xml.js"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
