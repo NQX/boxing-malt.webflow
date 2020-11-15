@@ -29,6 +29,15 @@
   font-weight: bold;
   display: block;
   line-height: 140%;
+  margin-top: 4px;
+  padding-right: 15px;
+}
+
+.news {
+  background-image: url('../images/news6.jpeg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: bottom !important;
 }
 
 .red-heading {
