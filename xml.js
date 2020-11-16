@@ -22,6 +22,8 @@ $(function () {
                    
                     var display = '';
                     $.each(response.items, function (k, item) {
+                        if(k === 8) return true;
+
                         display +=
                             `<div class="card mb-3 mx-auto mr-5 " style="width: 20rem; height: 425px; border: none;">`;
                         var src = item["thumbnail"]; // use thumbnail url
@@ -80,7 +82,7 @@ $(function () {
         }
         $("#pagin li:nth-child(1)").addClass("active");
         showPage = function (page) {
-            $(".card").hide();
+            //$(".card").hide();
             $(".card").each(function (n) {
                 if (n >= pageSize * (page - 1) && n < pageSize * page)
                     $(this).show();
