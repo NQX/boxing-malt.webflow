@@ -46,7 +46,7 @@ $(function () {
 
                         yourString = yourString.replace('h4', 'p');
                         yourString = yourString.replace('h3', 'p');
-                            console.dir(item)
+                            
                         display += `<p style="text-decoration: none; font-size: 12px;">${item.pubDate.replaceAll('-','/').slice(0,-3)}</p>`;
 
                         var maxLength =
