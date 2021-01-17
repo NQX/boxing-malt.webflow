@@ -71,9 +71,55 @@
 	
 }
 
+
+#section-malta {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	background-image: url('../images/malta.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#malta-btn {
+	width: 150px;
+	margin-top: 20px;
+}
+
+.div-block-11-a {
+	width: 80%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.malta-heading {
+	text-align: center;
+}
+
+
+.malta-text {
+	display: none;
+}
+
+
 .small-column {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+
+
+.div-block-11 {
+	width: 80%;
+	color: white;
+	font-family: Montserrat, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
