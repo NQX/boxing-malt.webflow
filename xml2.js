@@ -15,7 +15,7 @@ $(function () {
         };
 
 
-        $.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40coqqos',
+        $.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.boxingnews24.com%2Ffeed%2F',
             data,
             function (response) {
                 if (response.status == 'ok') {
@@ -46,7 +46,6 @@ $(function () {
 
                         yourString = yourString.replace('h4', 'p');
                         yourString = yourString.replace('h3', 'p');
-                            
                         display += `<p style="text-decoration: none; font-size: 12px;">${item.pubDate.replaceAll('-','/').slice(0,-3)}</p>`;
 
                         var maxLength =
@@ -64,7 +63,6 @@ $(function () {
                         display += '</div></div>';
                         return k < 10;
                     });
-
                     resolve($content.html(display));
                 }
             });
@@ -82,7 +80,7 @@ $(function () {
         }
         $("#pagin li:nth-child(1)").addClass("active");
         showPage = function (page) {
-            //$(".card").hide();
+          //  $(".card").hide();
             $(".card").each(function (n) {
                 if (n >= pageSize * (page - 1) && n < pageSize * page)
                     $(this).show();
