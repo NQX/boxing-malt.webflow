@@ -4,6 +4,14 @@
 	
 }
 
+.narrow {
+	margin-top: 5px;
+}
+
+.smaller {
+	font-size: 12px;
+}
+
 .btn-more {
 	width: 120px;
 	height: 40px;
