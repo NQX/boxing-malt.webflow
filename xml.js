@@ -26,7 +26,9 @@ $(function () {
 
                         display +=
                             `<div class="card mb-3 mx-auto mr-5 " style="width: 20rem; height: 425px; border: none;">`;
-                        var src = item["thumbnail"]; // use thumbnail url
+                        // feeds leave "thumbnail" empty; fall back to the first image in the post
+                        var firstImg = (item.content || "").match(/<img[^>]+src="([^"]+)"/);
+                        var src = item.thumbnail || (firstImg ? firstImg[1] : "");
 
                         display +=
                             `<div class="red-heading">
